@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 2N7002NXAKR
+D NEXPERIA - 2N7002NXAKR - MOSFET Transistor, Trench, N Channel, 190 mA, 60 V, 3 ohm, 10 V, 1.6 V
+K
+F 
+$ENDCMP
+#
+$CMP 12BH616P-GR
+D 9V Battery Snaps & Contacts 9V PCB MOUNT
+K
+F https://componentsearchengine.com/Datasheets/1/12BH616P-GR.pdf
+$ENDCMP
+#
+$CMP TLV7031DCKR
+D Nanopower, small size comparator with push-pull output
+K
+F http://www.ti.com/lit/gpn/tlv7031
+$ENDCMP
+#
+$CMP REF3040AIDBZT
+D 4.096V 50ppm/Degrees C, 50uA in SOT23-3 Series (Bandgap) Voltage Reference
+K
+F http://www.ti.com/lit/ds/symlink/ref3040.pdf
+$ENDCMP
+#
+$CMP C0805C105Z4VACTU
+D CAPACITOR, 0805 1uF +80%, -20% 16V
+K
+F 
+$ENDCMP
+#
+$CMP TMP236A4DBZR
+D &plusmn;2.5&deg;C analog output temperature sensor, with 19.5mV/&deg;C gain&nbsp;
+K
+F http://www.ti.com/lit/gpn/tmp236
+$ENDCMP
+#
+$CMP GRT1555C1H102JA02D
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT
+K
+F https://psearch.en.murata.com/capacitor/product/GRT1555C1H102JA02%23.html
+$ENDCMP
+#
+$CMP CRCW0805470KFKEA
+D Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 470k +/-1% 0.125W +/-100ppm/C
+K
+F https://componentsearchengine.com/Datasheets/1/CRCW0805470KFKEA.pdf
+$ENDCMP
+#
+$CMP CR0805-FX-1803ELF
+D Thick Film Resistors - SMD 180K 1%
+K
+F https://componentsearchengine.com/Datasheets/1/CR0805-FX-1803ELF.pdf
+$ENDCMP
+#
+$CMP CR0805-JW-151ELF
+D Bourns CR0805 Series Thick Film Surface Mount Resistor 0805 Case 150 0.125W +/-200ppm/C
+K
+F https://www.bourns.com/pdfs/chpreztr.pdf
+$ENDCMP
+#
+$CMP LH_R974-LP-1
+D Standard LEDs - SMD Hyper Red, 645nm 41mcd, 20mA
+K
+F https://componentsearchengine.com/Datasheets/1/LH R974-LP-1.pdf
+$ENDCMP
+#
+$CMP BAT54J,115
+D Schottky barrier diode 30V 200mA SOD323F
+K
+F https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf
+$ENDCMP
+#
+#End Doc Library

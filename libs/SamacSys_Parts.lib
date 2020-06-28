@@ -1,0 +1,305 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2N7002NXAKR
+#/2394372/245011/2.46/3/3/MOSFET (N-Channel)
+DEF 2N7002NXAKR Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "2N7002NXAKR" 450 50 50 H V L CNN
+F2 "SOT95P230X110-3N" 450 -50 50 H I L CNN
+F3 "" 450 -150 50 H I L CNN
+F4 "NEXPERIA - 2N7002NXAKR - MOSFET Transistor, Trench, N Channel, 190 mA, 60 V, 3 ohm, 10 V, 1.6 V" 450 -250 50 H I L CNN "Description"
+F5 "1.1" 450 -350 50 H I L CNN "Height"
+F6 "771-2N7002NXAKR" 450 -450 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002NXAKR?qs=%252B6g0mu59x7JoAsZYPFXqhw%3D%3D" 450 -550 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "2N7002NXAKR" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 12BH616P-GR
+#/356993/245011/2.46/2/4/Undefined or Miscellaneous
+DEF 12BH616P-GR U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "12BH616P-GR" 650 200 50 H V L CNN
+F2 "12BH616PGR" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/12BH616P-GR.pdf" 650 0 50 H I L CNN
+F4 "9V Battery Snaps & Contacts 9V PCB MOUNT" 650 -100 50 H I L CNN "Description"
+F5 "21.1" 650 -200 50 H I L CNN "Height"
+F6 "12BH616P-GR" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Eagle-Plastic-Devices/12BH616P-GR?qs=AUVJHMdIU7yG9KOocbBSvg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Eagle Plastic Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "12BH616P-GR" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TLV7031DCKR
+#/1227003/245011/2.46/5/3/Integrated Circuit
+DEF TLV7031DCKR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TLV7031DCKR" 850 200 50 H V L CNN
+F2 "SOT65P210X110-5N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tlv7031" 850 0 50 H I L CNN
+F4 "Nanopower, small size comparator with push-pull output" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "595-TLV7031DCKR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV7031DCKR?qs=F5EMLAvA7IBqEN38YnUGuA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV7031DCKR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 O
+X VEE 2 0 -100 200 R 50 50 0 0 W
+X IN+ 3 0 -200 200 R 50 50 0 0 I
+X IN- 4 1000 0 200 L 50 50 0 0 I
+X VCC 5 1000 -100 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model REF3040AIDBZT
+#/181680/245011/2.46/3/3/Integrated Circuit
+DEF REF3040AIDBZT IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "REF3040AIDBZT" 850 200 50 H V L CNN
+F2 "SOT95P237X112-3N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ref3040.pdf" 850 0 50 H I L CNN
+F4 "4.096V 50ppm/Degrees C, 50uA in SOT23-3 Series (Bandgap) Voltage Reference" 850 -100 50 H I L CNN "Description"
+F5 "1.12" 850 -200 50 H I L CNN "Height"
+F6 "595-REF3040AIDBZT" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF3040AIDBZT?qs=sSOk4GDDv7zKPxbetLqX2A%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "REF3040AIDBZT" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 I
+X OUT 2 0 -100 200 R 50 50 0 0 O
+X GND 3 1000 0 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C0805C105Z4VACTU
+#/296410/245011/2.46/2/0/Capacitor
+DEF C0805C105Z4VACTU C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C0805C105Z4VACTU" 350 150 50 H V L CNN
+F2 "CAPC2013X140N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "CAPACITOR, 0805 1uF +80%, -20% 16V" 350 -150 50 H I L CNN "Description"
+F5 "" 350 -250 50 H I L CNN "Height"
+F6 "80-C0805C105Z4V" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C105Z4VACTU?qs=XSafd0xJmRINotKjOdb5hw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kemet" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C0805C105Z4VACTU" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TMP236A4DBZR
+#/1466805/245011/2.46/3/3/Integrated Circuit
+DEF TMP236A4DBZR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TMP236A4DBZR" 950 200 50 H V L CNN
+F2 "SOT95P237X112-3N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tmp236" 950 0 50 H I L CNN
+F4 "&plusmn;2.5&deg;C analog output temperature sensor, with 19.5mV/&deg;C gain&nbsp;" 950 -100 50 H I L CNN "Description"
+F5 "1.12" 950 -200 50 H I L CNN "Height"
+F6 "595-TMP236A4DBZR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP236A4DBZR?qs=lc2O%252BfHJPVawHCafCBYETQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TMP236A4DBZR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 P
+X VOUT 2 0 -100 200 R 50 50 0 0 P
+X GND 3 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GRT1555C1H102JA02D
+#/1746478/245011/2.46/2/2/Capacitor
+DEF GRT1555C1H102JA02D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRT1555C1H102JA02D" 350 150 50 H V L CNN
+F2 "CAPC1005X55N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GRT1555C1H102JA02%23.html" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT" 350 -150 50 H I L CNN "Description"
+F5 "0.55" 350 -250 50 H I L CNN "Height"
+F6 "81-GRT1555C1H102JA2D" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRT1555C1H102JA02D?qs=qkDYIeTQ%252BEkjyN2QDHXqiQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "GRT1555C1H102JA02D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRCW0805470KFKEA
+#/186038/245011/2.46/2/5/Resistor
+DEF CRCW0805470KFKEA R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW0805470KFKEA" 550 150 50 H V L CNN
+F2 "RESC2012X50N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CRCW0805470KFKEA.pdf" 550 -50 50 H I L CNN
+F4 "Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 470k +/-1% 0.125W +/-100ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.5" 550 -250 50 H I L CNN "Height"
+F6 "71-CRCW0805470KFKEA" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0805470KFKEA" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CRCW0805470KFKEA" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CR0805-FX-1803ELF
+#/817498/245011/2.46/2/5/Resistor
+DEF CR0805-FX-1803ELF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CR0805-FX-1803ELF" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CR0805-FX-1803ELF.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 180K 1%" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "652-CR0805FX-1803ELF" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0805FX-1803ELF" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CR0805-FX-1803ELF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CR0805-JW-151ELF
+#/339528/245011/2.46/2/5/Resistor
+DEF CR0805-JW-151ELF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CR0805-JW-151ELF" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/chpreztr.pdf" 550 -50 50 H I L CNN
+F4 "Bourns CR0805 Series Thick Film Surface Mount Resistor 0805 Case 150 0.125W +/-200ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "652-CR0805JW-151ELF" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-JW-151ELF?qs=wL7NMIHXUPlvjTO0samP%2Fg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CR0805-JW-151ELF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LH_R974-LP-1
+#/557231/245011/2.46/2/4/LED
+DEF LH_R974-LP-1 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "LH_R974-LP-1" 500 250 50 H V L BNN
+F2 "LEDC2012X90N" 500 150 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/1/LH R974-LP-1.pdf" 500 50 50 H I L BNN
+F4 "Standard LEDs - SMD Hyper Red, 645nm 41mcd, 20mA" 500 -50 50 H I L BNN "Description"
+F5 "0.9" 500 -150 50 H I L BNN "Height"
+F6 "720-LHR974-LP-1" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LH-R974-LP-1?qs=LsPilcdHE7GU7OJxbROzng%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "OSRAM" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "LH R974-LP-1" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X K 1 0 0 100 R 50 50 0 0 P
+X A 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BAT54J,115
+#/726052/245011/2.47/2/3/Schottky Diode
+DEF BAT54J,115 D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "BAT54J,115" 500 250 50 H V L CNN
+F2 "SODFL2512X80N" 500 150 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf" 500 50 50 H I L CNN
+F4 "Schottky barrier diode 30V 200mA SOD323F" 500 -50 50 H I L CNN "Description"
+F5 "0.8" 500 -150 50 H I L CNN "Height"
+F6 "771-BAT54J115" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/BAT54J115?qs=me8TqzrmIYVxNBNrx1zKWQ%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "BAT54J,115" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 4 0 1 6 300 0 500 100 500 -100 300 0 N
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
